@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Laila');
+
+*{
+	box-sizing:border-box;
+	padding:0;
+}
+
+
+body, html{
+	width: 99%;
+	height: 100%;
+	
+}
+body{
+	background-image:url("Imagenes/Fondozelda.jpg");
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position:top;
+	background-attachment: fixed;
+    font-size:calc(14px + 0.25vw);	 /* Fuente responsive: tamaño mínimo 16px;*/
+	
+	
+	
+}
+
+
+#titulo{
+	text-align:center;
+	height: 15%;
+	
+    font-size: 2.5em;
+	color:yellow;
+    
+    font-family: 'Laila', serif;
+	
+	
+}
+
+.Apartados{
+	
+
+	text-align: left
+	
+	
+}
+#texto{
+	font-size: 20.5px;
+	color:white;
+	
+}
+
+h1{
+color:yellow;
+}
+
+
+h2{
+	display:block;
+	width: 33%;
+	box-sizing:border-box;
+	padding: 100%;
+	
+	
+	
+}
+
+#menuEnlaces{
+
+	display: flex;
+	justify-content: space-around;
+
+	margin-top:10vh;
+
+	
+}
+
+#menuEnlaces a{
+	position: relative;
+	z-index: 2;
+	font-size: 2.5em;
+	text-decoration:none; 
+	
+}
+
+
+
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: greenyellow;
+}
+#auxiliar{
+		
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	min-height: 80vh;
+
+}
+
+#capa1{
+    
+    background-color:rgba(0,0,0,0.5);
+
+	width:45.3%;
+	height: 95%;
+    padding: 1%;
+}
+	
+#capa2{
+    
+    text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	width:45vw;
+	height: 95%;
+    padding: 0.5%;
+    margin-bottom: 30px;
+    
+
+}
+
+#capa3{
+    
+    text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	width:90%;
+	height: 95%;
+    margin-bottom: 30px;
+    padding:0.5%;
+    
+
+}
+
+#capa4{
+    
+    text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	width:90%;
+	height: 95%;
+    margin-bottom: 30px;
+    padding:3%;
+    
+
+}
+
+
+
+#capaLogo{
+		
+	width: 7vw;
+	position: absolute;
+    top: 4%;
+    right: 21.5vw;
+
+
+    
+}
+
+#capaLogo img{
+	
+	width: 100%;
+	
+	
+}
+
+
+#capaLogo2{
+		
+	width: 7vw;
+	position: absolute;
+	top: 4%;
+	right:49.5vw;
+
+}
+
+#capaLogo2 img{
+	
+	width: 100%;
+	
+	
+}
+
+#direccion{
+    margin-left: -0.5%;
+    margin-top: 1%;
+	height: 12.1%;
+    width: 102%;
+    display: flex;
+	justify-content: space-around;
+	background-color:rgba(0,0,0,0.5);
+    font-family: 'Laila', serif;
+    
+    
+}
+
+#direccion2{
+    margin-left: -0.5%;
+    margin-top: 1%;
+	height: 12.1%;
+    width: 102%;
+    display: flex;
+	justify-content: space-around;
+	background-color:rgba(0,0,0,0.5);
+    font-family: 'Laila', serif;
+    
+}
+
+#auxiliar p{
+	 font-family: 'Laila', serif;
+	
+}
+
+#menuEnlaces{
+    font-family: 'Laila', serif;
+	
+	
+}
+
+.izquierda{ 
+    margin-right: 1vw;
+}
+
+.capaprin img{
+	margin-bottom: 0.5vh;
+}
+    
+.zoom{
+    transition: transform .5s;
+    margin-right: 1vw;
+}
+.zoom:hover{
+    
+  transform: scale(1.5);
+  
+
+    
+   
+}
+
